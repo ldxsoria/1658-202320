@@ -1,12 +1,3 @@
-![banner](sources/banner.png)
-# ÍNDICE
-* [Sesion 1](#sesion1)
-* [Sesion 2](#sesion2)
-
-# <a name="sesion1"></a>SESION 1
-En esta primera sesion, se explico la estructura basica html.
-
-
 # <a name="sesion2"></a>SESION 2
 
 En esta sesion necesitamos tener 2 archivos:
