@@ -4,9 +4,13 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
+}
+
+h1 {
 }
 
 p {
@@ -29,8 +33,14 @@ p {
 }
 
 #pie{
+    text-align: center;
     background-color: #5E5BBC;
     color: #fff;
+}
+
+#me {
+    font-family: Fuggles, sans-serif;
+    font-size: 20px;
 }
 
 .espaciado {
