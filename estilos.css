@@ -1,3 +1,10 @@
+:root {
+    --base: #fff;
+    --primary-color: #5E5BBC;
+    --secondary-color: #344856;
+    --tertiary-color: #203646;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,31 +17,28 @@ body {
     line-height: 1.5;
 }
 
-h1 {
-}
-
 p {
     margin-bottom: 20px;
 }
 
 #cabecera{
     background-color: #fff;
-    color: #5E5BBC;
+    color: var(--primary-color);
 }
 
 #nosotros{
-    background-color: #5E5BBC;
+    background-color: var(--primary-color);
     color: #fff;
 }
 
 #servicios{
     background-color: #fff;
-    color: #5E5BBC;
+    color: var(--primary-color);
 }
 
 #pie{
     text-align: center;
-    background-color: #5E5BBC;
+    background-color: var(--tertiary-color);
     color: #fff;
 }
 
@@ -46,4 +50,34 @@ p {
 .espaciado {
     padding: 60px 80px;
 
+}
+
+.contenedor {
+    max-width: 70%;
+    margin:  0 auto;
+}
+
+.fila {
+    display: flex; /*Flexbox*/
+    flex-direction: row;
+
+    margin: 0 -15px;
+}
+
+.columna {
+    /*Con esto nos aseguramos de que tengna el mismo ancho*/
+    flex-basis: 0; 
+    flex-grow: 1;
+
+    /*Para darles espacio*/
+    padding: 0 15px;
+}
+
+.ajustar-ancho {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 150px;
 }
