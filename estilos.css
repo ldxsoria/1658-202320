@@ -8,6 +8,9 @@
 * {
     margin: 0;
     padding: 0;
+
+    /* Para que las cajas incluyan el ancho, padding y border*/
+    box-sizing: border-box;
 }
 
 body {
@@ -36,6 +39,22 @@ p {
     color: var(--primary-color);
 }
 
+#eventos{
+    background: var(--primary-color);
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--base) 20%);
+    background: -webkit-linear-gradient(90deg, var(--primary-color) 0%, var(--base) 20%);
+    background: -moz-linear-gradient(90deg, var(--primary-color) 0%, var(--base) 20%);
+}
+
+#alumnos img{
+    border: var(--tertiary-color) thin solid;
+    border-radius: 50%;
+}
+
+#alumnos h3{
+    text-align: center;
+}
+
 #pie{
     text-align: center;
     background-color: var(--tertiary-color);
@@ -48,7 +67,7 @@ p {
 }
 
 .espaciado {
-    padding: 60px 80px;
+    padding: 20px 20px;
 
 }
 
@@ -79,5 +98,5 @@ p {
 }
 
 .logo {
-    width: 150px;
+    width: 125px;
 }

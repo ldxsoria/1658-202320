@@ -100,8 +100,53 @@ h1 #principal {
 ```
 
 ## Cajas
+![caja/s3](sources/caja-s3.png)
+wight -> es del content
+padding -> espacio interno
+border -> borde de la caja
+margin -> espacio exterior
+Todas estas medidas se suma.
+
+Pero si no queremos que se modifique el ancho declarado en el content debemos de agregar la siguiente propiedad:
+```css
+box-sizing: border-box;
+```
+
 
 ## Flexbox
 
 
 ## Insertar imagenes
+Se recomienda declararlas dentro de un div. Para establecer el tamaño
+de la caja y la imagen se ajuste a el.
+
+# <a name="sesion4"></a>SESION 4
+
+## Colores
+![color/s4](sources/s4-color.png)
+Es mejor usar codigos de color de plantillas o usar herramientas como adobe color
+* coolors.co
+* adobe color 
+
+Hay diferentes formas de declararlos:
+
+```css
+--color1: #ffffff;
+--color2: black;
+--color3: rgb(80,55,30)
+--color4: hsl(0, 0%, 0%)
+```
+
+## Copyright
+Para descargar imagees 
+-> pexels.com
+-> unsplash.com
+
+## Generar CSS
+cssgenerator.org
+
+## Hosting gratuito
+https://www.000webhost.com/
+
+
+# <a name="sesion5"></a>SESION 5
